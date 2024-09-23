@@ -1,0 +1,25 @@
+spring:
+  server:
+    port: 8090
+  name: redis-java-example
+  profiles:
+    active: dev
+  redis:
+    sentinel:
+      master: mymaster
+      username: mysentinel
+      password: mypassword
+      nodes:
+        - 192.168.5.120:26379
+        - 192.168.5.120:26380
+        - 192.168.5.120:26381
+    username: cp_user
+    password: testCp
+    database: 0
+    timeout: 5000ms
+    jdedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: -1ms

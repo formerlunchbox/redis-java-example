@@ -1,0 +1,38 @@
+redis-master
+date,stream,content
+2024/09/24 04:24:37,stdout,1:M 23 Sep 2024 20:24:37.773 * Partial resynchronization request from 172.21.0.4:6379 accepted. Sending 0 bytes of backlog starting from offset 197.
+
+2024/09/24 04:24:37,stdout,1:M 23 Sep 2024 20:24:37.773 * Replica 172.21.0.4:6379 asks for synchronization
+
+2024/09/24 04:24:37,stdout,1:M 23 Sep 2024 20:24:37.725 * Partial resynchronization request from 172.21.0.3:6379 accepted. Sending 0 bytes of backlog starting from offset 197.
+
+2024/09/24 04:24:37,stdout,1:M 23 Sep 2024 20:24:37.725 * Replica 172.21.0.3:6379 asks for synchronization
+
+2024/09/24 04:24:36,stdout,1:M 23 Sep 2024 20:24:36.984 * Ready to accept connections tcp
+
+2024/09/24 04:24:36,stdout,1:M 23 Sep 2024 20:24:36.984 * DB loaded from disk: 0.000 seconds
+
+2024/09/24 04:24:36,stdout,"1:M 23 Sep 2024 20:24:36.984 * Done loading RDB, keys loaded: 0, keys expired: 0.
+"
+2024/09/24 04:24:36,stdout,1:M 23 Sep 2024 20:24:36.984 * RDB memory usage when created 0.99 Mb
+
+2024/09/24 04:24:36,stdout,1:M 23 Sep 2024 20:24:36.984 * RDB age 53 seconds
+
+2024/09/24 04:24:36,stdout,1:M 23 Sep 2024 20:24:36.984 * Loading RDB produced by version 7.3.241
+
+2024/09/24 04:24:36,stdout,1:M 23 Sep 2024 20:24:36.984 * Server initialized
+
+2024/09/24 04:24:36,stdout,1:M 23 Sep 2024 20:24:36.983 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+
+2024/09/24 04:24:36,stdout,"1:M 23 Sep 2024 20:24:36.983 * Running mode=standalone, port=6379.
+"
+2024/09/24 04:24:36,stdout,1:M 23 Sep 2024 20:24:36.982 * monotonic clock: POSIX clock_gettime
+
+2024/09/24 04:24:36,stdout,1:C 23 Sep 2024 20:24:36.981 * Configuration loaded
+
+2024/09/24 04:24:36,stdout,"1:C 23 Sep 2024 20:24:36.981 * Redis version=7.3.241, bits=64, commit=00000000, modified=0, pid=1, just started
+"
+2024/09/24 04:24:36,stdout,1:C 23 Sep 2024 20:24:36.981 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+
+2024/09/24 04:24:36,stdout,"1:C 23 Sep 2024 20:24:36.981 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+"

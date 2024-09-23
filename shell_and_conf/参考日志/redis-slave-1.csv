@@ -1,0 +1,48 @@
+redis-slave-1
+date,stream,content
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.725 * MASTER <-> REPLICA sync: Master accepted a Partial Resynchronization.
+
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.725 * Master replication ID changed to 8ddc8957ae84e64760af7e7e7b374d077f058222
+
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.725 * Successful partial resynchronization with master.
+
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.725 * Trying a partial resynchronization (request 11ec76f9d271abcb6189f1f167936fe67c797aac:197).
+
+2024/09/24 04:24:37,stdout,"1:S 23 Sep 2024 20:24:37.725 * Master replied to PING, replication can continue...
+"
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.725 * Non blocking connect for SYNC fired the event.
+
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.725 * MASTER <-> REPLICA sync started
+
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.724 * Connecting to MASTER redis-master:6379
+
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.723 * Ready to accept connections tcp
+
+2024/09/24 04:24:37,stdout,"1:S 23 Sep 2024 20:24:37.723 * Before turning into a replica, using my own master parameters to synthesize a cached master: I may be able to synchronize with the new master with just a partial transfer.
+"
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.723 * DB loaded from disk: 0.001 seconds
+
+2024/09/24 04:24:37,stdout,"1:S 23 Sep 2024 20:24:37.723 * Done loading RDB, keys loaded: 0, keys expired: 0.
+"
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.723 * RDB memory usage when created 0.95 Mb
+
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.723 * RDB age 55 seconds
+
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.723 * Loading RDB produced by version 7.3.241
+
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.722 * Server initialized
+
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.722 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+
+2024/09/24 04:24:37,stdout,"1:S 23 Sep 2024 20:24:37.722 * Running mode=standalone, port=6379.
+"
+2024/09/24 04:24:37,stdout,1:S 23 Sep 2024 20:24:37.721 * monotonic clock: POSIX clock_gettime
+
+2024/09/24 04:24:37,stdout,1:C 23 Sep 2024 20:24:37.721 * Configuration loaded
+
+2024/09/24 04:24:37,stdout,"1:C 23 Sep 2024 20:24:37.721 * Redis version=7.3.241, bits=64, commit=00000000, modified=0, pid=1, just started
+"
+2024/09/24 04:24:37,stdout,1:C 23 Sep 2024 20:24:37.721 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+
+2024/09/24 04:24:37,stdout,"1:C 23 Sep 2024 20:24:37.721 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+"

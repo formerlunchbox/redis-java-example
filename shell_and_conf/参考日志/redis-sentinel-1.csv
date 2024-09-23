@@ -1,0 +1,28 @@
+redis-sentinel-1
+date,stream,content
+2024/09/24 04:24:38,stdout,1:X 23 Sep 2024 20:24:38.844 * Sentinel new configuration saved on disk
+
+2024/09/24 04:24:38,stdout,1:X 23 Sep 2024 20:24:38.830 * +slave slave 172.21.0.4:6379 172.21.0.4 6379 @ mymaster 172.21.0.2 6379
+
+2024/09/24 04:24:38,stdout,1:X 23 Sep 2024 20:24:38.830 * Sentinel new configuration saved on disk
+
+2024/09/24 04:24:38,stdout,1:X 23 Sep 2024 20:24:38.813 * +slave slave 172.21.0.3:6379 172.21.0.3 6379 @ mymaster 172.21.0.2 6379
+
+2024/09/24 04:24:38,stdout,1:X 23 Sep 2024 20:24:38.812 # +monitor master mymaster 172.21.0.2 6379 quorum 2
+
+2024/09/24 04:24:38,stdout,1:X 23 Sep 2024 20:24:38.812 * Sentinel ID is 60c3fccce1e1419c9e281d8d4823e13f9f9416dc
+
+2024/09/24 04:24:38,stdout,1:X 23 Sep 2024 20:24:38.812 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+
+2024/09/24 04:24:38,stdout,"1:X 23 Sep 2024 20:24:38.812 * Running mode=sentinel, port=26379.
+"
+2024/09/24 04:24:38,stdout,1:X 23 Sep 2024 20:24:38.811 * monotonic clock: POSIX clock_gettime
+
+2024/09/24 04:24:38,stdout,1:X 23 Sep 2024 20:24:38.811 * Configuration loaded
+
+2024/09/24 04:24:38,stdout,"1:X 23 Sep 2024 20:24:38.811 * Redis version=7.3.241, bits=64, commit=00000000, modified=0, pid=1, just started
+"
+2024/09/24 04:24:38,stdout,1:X 23 Sep 2024 20:24:38.811 * oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+
+2024/09/24 04:24:38,stdout,"1:X 23 Sep 2024 20:24:38.811 # WARNING Memory overcommit must be enabled! Without it, a background save or replication may fail under low memory condition. Being disabled, it can also cause failures without low memory condition, see https://github.com/jemalloc/jemalloc/issues/1328. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+"
