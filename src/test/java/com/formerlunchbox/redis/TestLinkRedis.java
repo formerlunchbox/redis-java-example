@@ -16,7 +16,9 @@ class TestLinkRedis {
   void testLinkRedis() {
     String value = "value";
     redisTemplate.opsForValue().set("key", value);
-    String temp = redisTemplate.opsForValue().get("key").toString();
+    redisTemplate.opsForValue().getAndDelete("key");
+    redisTemplate.opsForValue().set("key2", value);
+    String temp = redisTemplate.opsForValue().get("key2").toString();
     System.out.println(temp);
     Assertions.assertEquals(value, temp);
   }
